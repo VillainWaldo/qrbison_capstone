@@ -17,16 +17,16 @@ struct Information: View {
             ZStack{
                 Rectangle()
                     .foregroundColor(Color("gallycream"))
-                    .frame(width: 250, height: 250, alignment: .center)
+                    .frame(width: 275, height: 275, alignment: .center)
                     .cornerRadius(25)
                 VStack{
                 Text("Return to Campus")
                 
              //   NavigationLink(destination: Information()) {
                     Text("Taking a COVID-19 Test")
-                        .font(.title)
+                        .font(.subheadline)
                         .foregroundColor(Color.white)
-                        .frame(width: 175, height: 75, alignment: .center)
+                        .frame(width: 200, height: 3, alignment: .center)
                         .padding(20)
                         .background(Color("gallyblue"))
                         .cornerRadius(10)
@@ -34,9 +34,9 @@ struct Information: View {
                 
              //   NavigationLink(destination: PersonalInformation()) {
                     Text("Positive Test Process")
-                        .font(.title)
+                        .font(.subheadline)
                         .foregroundColor(Color.white)
-                        .frame(maxWidth: .infinity)
+                        .frame(width: 200, height: 3, alignment: .center)
                         .padding(20)
                         .background(Color("gallyblue"))
                         .cornerRadius(10)
@@ -44,9 +44,9 @@ struct Information: View {
                 
           //      NavigationLink(destination: References()) {
                     Text("COVID-19 Dashboard")
-                        .font(.title)
+                        .font(.subheadline)
                         .foregroundColor(Color.white)
-                        .frame(maxWidth: .infinity)
+                        .frame(width: 200, height: 3, alignment: .center)
                         .padding(20)
                         .background(Color("gallyblue"))
                         .cornerRadius(10)
@@ -65,9 +65,9 @@ struct Information: View {
                 VStack{
                 Text("Your Safety")
                     Text("Suscipious Symptoms")
-                        .font(.title)
+                        .font(.subheadline)
                         .foregroundColor(Color.white)
-                        .frame(maxWidth: .infinity)
+                        .frame(width: 200, height: 3, alignment: .center)
                         .padding(20)
                         .background(Color("gallyblue"))
                         .cornerRadius(10)
