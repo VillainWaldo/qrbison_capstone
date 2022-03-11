@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A259D9727DB9A15004B3C2E /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9627DB9A15004B3C2E /* Information.swift */; };
+		9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */; };
+		9A259D9B27DB9A41004B3C2E /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9A27DB9A41004B3C2E /* References.swift */; };
 		9EE4C00A27D25D7C0089C372 /* qrbisonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C00927D25D7C0089C372 /* qrbisonApp.swift */; };
-		9EE4C00C27D25D7C0089C372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C00B27D25D7C0089C372 /* ContentView.swift */; };
+		9EE4C00C27D25D7C0089C372 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C00B27D25D7C0089C372 /* LoginPage.swift */; };
 		9EE4C00E27D25D7E0089C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE4C00D27D25D7E0089C372 /* Assets.xcassets */; };
 		9EE4C01127D25D7E0089C372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE4C01027D25D7E0089C372 /* Preview Assets.xcassets */; };
-		9EE4C01827D267F30089C372 /* InformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C01727D267F30089C372 /* InformationPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A259D9627DB9A15004B3C2E /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		9A259D9A27DB9A41004B3C2E /* References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		9EE4C00627D25D7C0089C372 /* qrbison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrbison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE4C00927D25D7C0089C372 /* qrbisonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrbisonApp.swift; sourceTree = "<group>"; };
-		9EE4C00B27D25D7C0089C372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EE4C00B27D25D7C0089C372 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		9EE4C00D27D25D7E0089C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE4C01027D25D7E0089C372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9EE4C01727D267F30089C372 /* InformationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				9EE4C00927D25D7C0089C372 /* qrbisonApp.swift */,
-				9EE4C00B27D25D7C0089C372 /* ContentView.swift */,
-				9EE4C01727D267F30089C372 /* InformationPage.swift */,
+				9EE4C00B27D25D7C0089C372 /* LoginPage.swift */,
+				9A259D9627DB9A15004B3C2E /* Information.swift */,
+				9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */,
+				9A259D9A27DB9A41004B3C2E /* References.swift */,
 				9EE4C00D27D25D7E0089C372 /* Assets.xcassets */,
 				9EE4C00F27D25D7E0089C372 /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE4C00C27D25D7C0089C372 /* ContentView.swift in Sources */,
-				9EE4C01827D267F30089C372 /* InformationPage.swift in Sources */,
+				9A259D9727DB9A15004B3C2E /* Information.swift in Sources */,
+				9EE4C00C27D25D7C0089C372 /* LoginPage.swift in Sources */,
+				9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */,
+				9A259D9B27DB9A41004B3C2E /* References.swift in Sources */,
 				9EE4C00A27D25D7C0089C372 /* qrbisonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
