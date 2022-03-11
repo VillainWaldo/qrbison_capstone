@@ -9,11 +9,9 @@ import SwiftUI
 
 struct Information: View {
     var body: some View {
+        
         VStack{
-            TopHeader()
-            
-            Spacer()
-            
+            //TopHeader
             Text("Important Information")
             
             Text("Current Mask Status: ")
