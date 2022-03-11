@@ -64,7 +64,7 @@ struct Information: View {
                     .cornerRadius(25)
                 VStack{
                 Text("Your Safety")
-                    Text("Suscipious Symptoms\")
+                    Text("Suscipious Symptoms")
                         .font(.title)
                         .foregroundColor(Color.white)
                         .frame(maxWidth: .infinity)
