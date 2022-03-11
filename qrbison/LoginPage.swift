@@ -70,6 +70,7 @@ struct ContentView: View {
             }
             .textFieldStyle(.roundedBorder)
             .background(Color("gallycream"))
+            .ignoresSafeArea(.keyboard)
         }
         
         else {
