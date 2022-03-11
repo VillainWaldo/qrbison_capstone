@@ -12,7 +12,7 @@ struct PersonalInformation: View {
     //Add variable for date of most recent test
     var body: some View {
         VStack {
-            //Vlad's code for header
+            //TopHeader()
             ZStack {
                 Rectangle()
                     .fill(Color("gallycream"))
