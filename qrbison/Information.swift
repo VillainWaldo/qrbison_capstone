@@ -10,6 +10,10 @@ import SwiftUI
 struct Information: View {
     var body: some View {
         VStack{
+            TopHeader()
+            
+            Spacer()
+            
             Text("Important Information")
             
             Text("Current Mask Status: ")
@@ -17,8 +21,9 @@ struct Information: View {
             ZStack{
                 Rectangle()
                     .foregroundColor(Color("gallycream"))
-                    .frame(width: 275, height: 275, alignment: .center)
+                    .frame(width: .infinity, height: 275, alignment: .center)
                     .cornerRadius(25)
+                    .padding(.horizontal, 20)
                 VStack{
                 Text("Return to Campus")
                 
@@ -36,10 +41,11 @@ struct Information: View {
                     Text("Positive Test Process")
                         .font(.subheadline)
                         .foregroundColor(Color.white)
-                        .frame(width: 200, height: 3, alignment: .center)
-                        .padding(20)
+                        .frame(width: .infinity, height: 30, alignment: .center)
+                        .padding(.horizontal, 50)
                         .background(Color("gallyblue"))
                         .cornerRadius(10)
+                        
             //    }
                 
           //      NavigationLink(destination: References()) {
@@ -60,8 +66,9 @@ struct Information: View {
             ZStack{
                 Rectangle()
                     .foregroundColor(Color("gallycream"))
-                    .frame(width: 250, height: 125, alignment: .center)
+                    .frame(width: .infinity, height: 100, alignment: .center)
                     .cornerRadius(25)
+                    .padding(.horizontal, 20)
                 VStack{
                 Text("Your Safety")
                     Text("Suscipious Symptoms")
@@ -81,7 +88,9 @@ struct Information: View {
                     .cornerRadius(10)
                     
             }
+            Spacer()
     }
+    
     }
 }
 
