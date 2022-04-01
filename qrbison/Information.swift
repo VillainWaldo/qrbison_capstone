@@ -9,88 +9,113 @@ import SwiftUI
 
 struct Information: View {
     var body: some View {
-        
-        VStack{
-            //TopHeader
-            Text("Important Information")
+        NavigationView{
+        ZStack{
             
-            Text("Current Mask Status: ")
-            
-            ZStack{
-                Rectangle()
-                    .foregroundColor(Color("gallycream"))
-                    .frame(width: .infinity, height: 275, alignment: .center)
-                    .cornerRadius(25)
-                    .padding(.horizontal, 20)
-                VStack{
-                Text("Return to Campus")
+            VStack{
                 
-             //   NavigationLink(destination: Information()) {
-                    Text("Taking a COVID-19 Test")
-                        .font(.subheadline)
-                        .foregroundColor(Color.white)
-                        .frame(width: 200, height: 3, alignment: .center)
-                        .padding(20)
-                        .background(Color("gallyblue"))
-                        .cornerRadius(10)
-            //   }
+                Text("Important Information")
+                    .font(.title)
+                    .foregroundColor(Color("gallynavyblue"))
                 
-             //   NavigationLink(destination: PersonalInformation()) {
-                    Text("Positive Test Process")
-                        .font(.subheadline)
-                        .foregroundColor(Color.white)
-                        .frame(width: .infinity, height: 30, alignment: .center)
-                        .padding(.horizontal, 50)
-                        .background(Color("gallyblue"))
-                        .cornerRadius(10)
-                        
-            //    }
-                
-          //      NavigationLink(destination: References()) {
-                    Text("COVID-19 Dashboard")
-                        .font(.subheadline)
-                        .foregroundColor(Color.white)
-                        .frame(width: 200, height: 3, alignment: .center)
-                        .padding(20)
-                        .background(Color("gallyblue"))
-                        .cornerRadius(10)
-         //       }
-                
-                
-                
-                }
-            }
-            
-            ZStack{
-                Rectangle()
-                    .foregroundColor(Color("gallycream"))
-                    .frame(width: .infinity, height: 100, alignment: .center)
-                    .cornerRadius(25)
-                    .padding(.horizontal, 20)
-                VStack{
-                Text("Your Safety")
-                    Text("Suscipious Symptoms")
-                        .font(.subheadline)
-                        .foregroundColor(Color.white)
-                        .frame(width: 200, height: 3, alignment: .center)
-                        .padding(20)
-                        .background(Color("gallyblue"))
-                        .cornerRadius(10)
-                }
-        }
-            
-            ZStack{
-                Rectangle()
-                    .foregroundColor(Color.black)
-                    .frame(width: 150, height: 40, alignment: .center)
-                    .cornerRadius(10)
+                HStack{
+                    Text("Current Mask Status: ")
                     
+                    Circle()
+                        .foregroundColor(Color.green)
+                        .frame(width: 20, height: 20)
+                }
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(Color("gallycream"))
+                        .frame(width: .infinity, height: 275, alignment: .center)
+                        .cornerRadius(25)
+                        .padding(.horizontal, 20)
+                    
+                    VStack{
+                        Text("Return to Campus")
+                        NavigationLink(destination: TakingCOVIDTest()) {
+                            Text("Taking a COVID-19 Test")
+                                .font(.subheadline)
+                                .foregroundColor(Color.white)
+                                .frame(width: .infinity, height: 3, alignment: .center)
+                                .padding(20)
+                                .background(Color("gallyblue"))
+                                .cornerRadius(10)
+                        }
+                        
+                           NavigationLink(destination: PositiveTestProcess()) {
+                        Text("Positive Test Process")
+                            .font(.subheadline)
+                            .foregroundColor(Color.white)
+                            .frame(width: .infinity, height: 3, alignment: .center)
+                            .padding(20)
+                            .background(Color("gallyblue"))
+                            .cornerRadius(10)
+                        
+                           }
+                        
+                            NavigationLink(destination: COVIDDashboard()) {
+                        Text("COVID-19 Dashboard")
+                            .font(.subheadline)
+                            .foregroundColor(Color.white)
+                            .frame(width: .infinity, height: 3, alignment: .center)
+                            .padding(20)
+                            .background(Color("gallyblue"))
+                            .cornerRadius(10)
+                             }
+                    }
+                    
+                }
+                
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(Color("gallycream"))
+                        .frame(width: .infinity, height: 100, alignment: .center)
+                        .cornerRadius(25)
+                        .padding(.horizontal, 20)
+                    VStack{
+                        Text("Your Safety")
+                        NavigationLink(destination: SuscipiousSymptoms()){
+                        Text("Suscipious Symptoms")
+                            .font(.subheadline)
+                            .foregroundColor(Color.white)
+                            .frame(width: 200, height: 3, alignment: .center)
+                            .padding(20)
+                            .background(Color("gallyblue"))
+                            .cornerRadius(10)
+                        }
+                    }
+                }
+                
+                ZStack{
+                    
+                    Rectangle()
+                        .foregroundColor(Color.black)
+                        .frame(width: 250, height: 40, alignment: .center)
+                        .cornerRadius(10)
+                    Button(
+                       action: {
+                      //  https://www.gallaudet.edu/about/return-to-campus/gu
+                        },
+                        label: {  Text("More on GU wesbite")
+                                .foregroundColor(Color.white)
+                                .underline() }
+                    )
+                   
+                    
+                }
+                
+                
             }
-            Spacer()
+            
+            TopHeader()
+        }
+        
     }
-    
     }
 }
+
 
 struct Information_Previews: PreviewProvider {
     static var previews: some View {

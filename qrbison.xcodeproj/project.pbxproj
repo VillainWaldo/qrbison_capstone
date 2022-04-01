@@ -12,6 +12,10 @@
 		9A259D9B27DB9A41004B3C2E /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9A27DB9A41004B3C2E /* References.swift */; };
 		9E62CE2627DBAAAC002AA011 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2527DBAAAC002AA011 /* HomePage.swift */; };
 		9E62CE2827DBAD2F002AA011 /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2727DBAD2F002AA011 /* TopHeader.swift */; };
+		9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */; };
+		9EBAA92427F69F8400D85A5E /* PositiveTestProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92327F69F8400D85A5E /* PositiveTestProcess.swift */; };
+		9EBAA92627F6A0DC00D85A5E /* COVIDDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92527F6A0DC00D85A5E /* COVIDDashboard.swift */; };
+		9EBAA92827F6A18300D85A5E /* SuscipiousSymptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92727F6A18300D85A5E /* SuscipiousSymptoms.swift */; };
 		9EE4C00A27D25D7C0089C372 /* qrbisonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C00927D25D7C0089C372 /* qrbisonApp.swift */; };
 		9EE4C00C27D25D7C0089C372 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4C00B27D25D7C0089C372 /* LoginPage.swift */; };
 		9EE4C00E27D25D7E0089C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE4C00D27D25D7E0089C372 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 		9A259D9A27DB9A41004B3C2E /* References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		9E62CE2527DBAAAC002AA011 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		9E62CE2727DBAD2F002AA011 /* TopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
+		9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakingCOVIDTest.swift; sourceTree = "<group>"; };
+		9EBAA92327F69F8400D85A5E /* PositiveTestProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveTestProcess.swift; sourceTree = "<group>"; };
+		9EBAA92527F6A0DC00D85A5E /* COVIDDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVIDDashboard.swift; sourceTree = "<group>"; };
+		9EBAA92727F6A18300D85A5E /* SuscipiousSymptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuscipiousSymptoms.swift; sourceTree = "<group>"; };
 		9EE4C00627D25D7C0089C372 /* qrbison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrbison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE4C00927D25D7C0089C372 /* qrbisonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrbisonApp.swift; sourceTree = "<group>"; };
 		9EE4C00B27D25D7C0089C372 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				9E62CE2727DBAD2F002AA011 /* TopHeader.swift */,
 				9E62CE2527DBAAAC002AA011 /* HomePage.swift */,
 				9A259D9627DB9A15004B3C2E /* Information.swift */,
+				9EBAA92727F6A18300D85A5E /* SuscipiousSymptoms.swift */,
+				9EBAA92527F6A0DC00D85A5E /* COVIDDashboard.swift */,
+				9EBAA92327F69F8400D85A5E /* PositiveTestProcess.swift */,
+				9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */,
 				9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */,
 				9A259D9A27DB9A41004B3C2E /* References.swift */,
 				9EE4C00D27D25D7E0089C372 /* Assets.xcassets */,
@@ -155,6 +167,10 @@
 				9A259D9727DB9A15004B3C2E /* Information.swift in Sources */,
 				9E62CE2627DBAAAC002AA011 /* HomePage.swift in Sources */,
 				9EE4C00C27D25D7C0089C372 /* LoginPage.swift in Sources */,
+				9EBAA92427F69F8400D85A5E /* PositiveTestProcess.swift in Sources */,
+				9EBAA92827F6A18300D85A5E /* SuscipiousSymptoms.swift in Sources */,
+				9EBAA92627F6A0DC00D85A5E /* COVIDDashboard.swift in Sources */,
+				9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */,
 				9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */,
 				9A259D9B27DB9A41004B3C2E /* References.swift in Sources */,
 				9EE4C00A27D25D7C0089C372 /* qrbisonApp.swift in Sources */,
