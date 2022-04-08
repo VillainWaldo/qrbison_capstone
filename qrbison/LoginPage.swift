@@ -39,12 +39,11 @@ struct ContentView: View {
                         text: $username
                     )
                         .disableAutocorrection(true)
+                        .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     Text("Password: ")
-                    TextField(
-                        "Enter your password",
-                        text: $password
-                    )
+                    SecureField("Enter a password", text: $password)
                         .disableAutocorrection(true)
+                        .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                         .padding(.bottom, 30)
                     
                     Button(

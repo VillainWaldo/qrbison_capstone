@@ -26,7 +26,7 @@ struct TopHeader: View {
                             .frame(width: 50, height: 50)
                     })
                 }
-                .offset(x: -10)
+                .offset(x: -15, y: 13)
             }
             .background(
                         Image("header")
@@ -34,6 +34,7 @@ struct TopHeader: View {
                             .aspectRatio(contentMode: .fill)
                             .ignoresSafeArea()
                     )
+            .offset(y: 10)
         }
         .edgesIgnoringSafeArea(.all)
         .offset(y: 0)

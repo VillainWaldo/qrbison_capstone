@@ -28,6 +28,7 @@ struct HomePage: View {
                             .background(Color("gallyblue"))
                             .cornerRadius(10)
                     }
+                    .padding(.horizontal, 30.0)
                     
                     NavigationLink(destination: PersonalInformation()) {
                         Text("Personal Information")
@@ -38,6 +39,7 @@ struct HomePage: View {
                             .background(Color("gallyblue"))
                             .cornerRadius(10)
                     }
+                    .padding(.horizontal, 30.0)
                     
                     NavigationLink(destination: References()) {
                         Text("References")
@@ -48,6 +50,7 @@ struct HomePage: View {
                             .background(Color("gallyblue"))
                             .cornerRadius(10)
                     }
+                    .padding(.horizontal, 30.0)
                     
                     Spacer()
                 }
