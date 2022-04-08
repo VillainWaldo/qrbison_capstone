@@ -17,6 +17,7 @@ struct Information: View {
                 Text("Important Information")
                     .font(.title)
                     .foregroundColor(Color("gallynavyblue"))
+                    
                 
                 HStack{
                     Text("Current Mask Status: ")
@@ -28,7 +29,7 @@ struct Information: View {
                 ZStack{
                     Rectangle()
                         .foregroundColor(Color("gallycream"))
-                        .frame(width: .infinity, height: 275, alignment: .center)
+                        .frame(width: .infinity, height: 250, alignment: .center)
                         .cornerRadius(25)
                         .padding(.horizontal, 20)
                     
@@ -38,7 +39,7 @@ struct Information: View {
                             Text("Taking a COVID-19 Test")
                                 .font(.subheadline)
                                 .foregroundColor(Color.white)
-                                .frame(width: .infinity, height: 3, alignment: .center)
+                                .frame(width: 200, height: 3, alignment: .center)
                                 .padding(20)
                                 .background(Color("gallyblue"))
                                 .cornerRadius(10)
@@ -48,7 +49,7 @@ struct Information: View {
                         Text("Positive Test Process")
                             .font(.subheadline)
                             .foregroundColor(Color.white)
-                            .frame(width: .infinity, height: 3, alignment: .center)
+                            .frame(width: 200, height: 3, alignment: .center)
                             .padding(20)
                             .background(Color("gallyblue"))
                             .cornerRadius(10)
@@ -59,13 +60,12 @@ struct Information: View {
                         Text("COVID-19 Dashboard")
                             .font(.subheadline)
                             .foregroundColor(Color.white)
-                            .frame(width: .infinity, height: 3, alignment: .center)
+                            .frame(width: 200, height: 3, alignment: .center)
                             .padding(20)
                             .background(Color("gallyblue"))
                             .cornerRadius(10)
                              }
                     }
-                    
                 }
                 
                 ZStack{
@@ -89,26 +89,25 @@ struct Information: View {
                 }
                 
                 ZStack{
-                    
                     Rectangle()
                         .foregroundColor(Color.black)
                         .frame(width: 250, height: 40, alignment: .center)
                         .cornerRadius(10)
                     Button(
                        action: {
-                      //  https://www.gallaudet.edu/about/return-to-campus/gu
+                      
                         },
                         label: {  Text("More on GU wesbite")
                                 .foregroundColor(Color.white)
-                                .underline() }
-                    )
-                   
+                                .underline() })
+                    
+                    Link("", destination: URL(string: "https://www.gallaudet.edu/about/return-to-campus/gu")!)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                    
+                    
                     
                 }
-                
-                
             }
-            
             TopHeader()
         }
         
