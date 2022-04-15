@@ -101,7 +101,7 @@ struct Information: View {
                                 .foregroundColor(Color.white)
                                 .underline() })
                     
-                    Link("", destination: URL(string: "https://www.gallaudet.edu/about/return-to-campus/gu")!)
+                    Link("More on GU wesbite", destination: URL(string: "https://www.gallaudet.edu/about/return-to-campus/gu")!)
                         .frame(maxWidth: .infinity, alignment: .center)
                     
                     
