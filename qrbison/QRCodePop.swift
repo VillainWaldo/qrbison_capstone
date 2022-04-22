@@ -1,20 +1,19 @@
 //
-//  LogOutPop.swift
+//  QRCodePop.swift
 //  qrbison
 //
-//  Created by Kate Lorenzo on 4/8/22.
+//  Created by Kate Lorenzo on 4/22/22.
 //
 
 import SwiftUI
 
-struct LogOutPop: View {
+struct QRCodePop: View {
     var title: String
     var message: String
     var buttonText: String
     @Binding var show: Bool
     
     var body: some View {
-        
         ZStack {
             if show {
                 // PopUp background color
@@ -27,7 +26,7 @@ struct LogOutPop: View {
                         .frame(height: 45, alignment: .center)
                         .font(Font.system(size: 23, weight: .semibold))
                         .foregroundColor(Color.white)
-                        .background(Color(#colorLiteral(red: 0.6196078431, green: 0.1098039216, blue: 0.2509803922, alpha: 1)))
+                        .background(Color("gallynavyblue"))
                     
                     Text(message)
                         .multilineTextAlignment(.center)
@@ -45,20 +44,20 @@ struct LogOutPop: View {
                             .frame(maxWidth: .infinity)
                             .frame(height: 54, alignment: .center)
                             .foregroundColor(Color.white)
-                            .background(Color(#colorLiteral(red: 0.6196078431, green: 0.1098039216, blue: 0.2509803922, alpha: 1)))
+                            .background(Color("gallynavyblue"))
                             .font(Font.system(size: 23, weight: .semibold))
                     }).buttonStyle(PlainButtonStyle())
                 }
                 .frame(maxWidth: 300)
                 .border(Color.white, width: 2)
-                .background(Color(#colorLiteral(red: 0.737254902, green: 0.1294117647, blue: 0.2941176471, alpha: 1)))
+                .background(Color("gallycream"))
             }
         }
     }
 }
 
-/*struct LogOutPop_Previews: PreviewProvider {
+/*struct QRCodePop_Previews: PreviewProvider {
     static var previews: some View {
-        LogOutPop(title: "Log Out", message: "Are you sure you want to log out?", buttonText: "No", show: show)
+        QRCodePop()
     }
 }*/

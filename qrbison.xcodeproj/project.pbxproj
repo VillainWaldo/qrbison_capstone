@@ -11,6 +11,7 @@
 		9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */; };
 		9A259D9B27DB9A41004B3C2E /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9A27DB9A41004B3C2E /* References.swift */; };
 		9A49C0332800999A0075135D /* LogOutPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C0322800999A0075135D /* LogOutPop.swift */; };
+		9AC1239C2812F6050062D592 /* QRCodePop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1239B2812F6050062D592 /* QRCodePop.swift */; };
 		9E62CE2627DBAAAC002AA011 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2527DBAAAC002AA011 /* HomePage.swift */; };
 		9E62CE2827DBAD2F002AA011 /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2727DBAD2F002AA011 /* TopHeader.swift */; };
 		9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */; };
@@ -28,6 +29,7 @@
 		9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		9A259D9A27DB9A41004B3C2E /* References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		9A49C0322800999A0075135D /* LogOutPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutPop.swift; sourceTree = "<group>"; };
+		9AC1239B2812F6050062D592 /* QRCodePop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodePop.swift; sourceTree = "<group>"; };
 		9E62CE2527DBAAAC002AA011 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		9E62CE2727DBAD2F002AA011 /* TopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
 		9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakingCOVIDTest.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				9EE4C00B27D25D7C0089C372 /* LoginPage.swift */,
 				9E62CE2727DBAD2F002AA011 /* TopHeader.swift */,
 				9E62CE2527DBAAAC002AA011 /* HomePage.swift */,
+				9AC1239B2812F6050062D592 /* QRCodePop.swift */,
 				9A49C0322800999A0075135D /* LogOutPop.swift */,
 				9A259D9627DB9A15004B3C2E /* Information.swift */,
 				9EBAA92727F6A18300D85A5E /* SuscipiousSymptoms.swift */,
@@ -174,6 +177,7 @@
 				9EBAA92827F6A18300D85A5E /* SuscipiousSymptoms.swift in Sources */,
 				9EBAA92627F6A0DC00D85A5E /* COVIDDashboard.swift in Sources */,
 				9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */,
+				9AC1239C2812F6050062D592 /* QRCodePop.swift in Sources */,
 				9A49C0332800999A0075135D /* LogOutPop.swift in Sources */,
 				9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */,
 				9A259D9B27DB9A41004B3C2E /* References.swift in Sources */,
