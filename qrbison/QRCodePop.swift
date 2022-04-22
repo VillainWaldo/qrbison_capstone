@@ -9,7 +9,7 @@ import SwiftUI
 
 struct QRCodePop: View {
     var title: String
-    var message: String
+    var message: Image
     var buttonText: String
     @Binding var show: Bool
     
@@ -30,23 +30,41 @@ struct QRCodePop: View {
                     
                     Text(message)
                         .multilineTextAlignment(.center)
-                        .font(Font.system(size: 16, weight: .semibold))
-                        .padding(EdgeInsets(top: 20, leading: 25, bottom: 20, trailing: 25))
-                        .foregroundColor(Color.white)
-                    
-                    Button(action: {
-                        // Dismiss the PopUp
-                        withAnimation(.linear(duration: 0.3)) {
-                            show = false
-                        }
-                    }, label: {
-                        Text(buttonText)
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 54, alignment: .center)
-                            .foregroundColor(Color.white)
-                            .background(Color("gallynavyblue"))
-                            .font(Font.system(size: 23, weight: .semibold))
-                    }).buttonStyle(PlainButtonStyle())
+                    HStack {
+                        /*Button(action: {
+                            //Log out
+                            withAnimation(.linear(duration: 0.3)) {
+                                show = false
+                            }
+                        }, label: {
+                            Text(buttonText)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 54, alignment: .center)
+                                .foregroundColor(Color.white)
+                                .background(Color("gallynavyblue"))
+                                .font(Font.system(size: 23, weight: .semibold))
+                        }).buttonStyle(PlainButtonStyle())*/
+                        
+                        NavigationView {
+                                    NavigationLink(destination: LoginPage()) {
+                                        Text("Push new screen")
+                                    }
+                                }
+                        
+                        Button(action: {
+                            //Do not log out
+                            withAnimation(.linear(duration: 0.3)) {
+                                show = false
+                            }
+                        }, label: {
+                            Text(buttonText)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 54, alignment: .center)
+                                .foregroundColor(Color.white)
+                                .background(Color("gallynavyblue"))
+                                .font(Font.system(size: 23, weight: .semibold))
+                        }).buttonStyle(PlainButtonStyle())
+                    }
                 }
                 .frame(maxWidth: 300)
                 .border(Color.white, width: 2)

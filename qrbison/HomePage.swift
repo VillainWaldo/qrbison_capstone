@@ -13,7 +13,7 @@ struct HomePage: View {
     @State private var showQR: Bool = false
     
     //Personal QR Code
-    @State private var showQR: Bool = false
+    @State private var qrcode: Image = Image("qrcode")
     
     var body: some View {
         NavigationView{
@@ -102,7 +102,7 @@ struct HomePage: View {
                 
                 LogOutPop(title: "Log Out", message: "Are you sure you want to log out?", buttonText: "No", show: $showPopUp)
                 
-                QRCodePop(title: "Your QR Code", message: "Are you sure you want to log out?", buttonText: "OK", show: $showQR)
+                QRCodePop(title: "Personal QR Code", message: qrcode, buttonText: "OK", show: $showQR)
             }
         }
     }
