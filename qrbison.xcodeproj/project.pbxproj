@@ -12,6 +12,7 @@
 		9A259D9B27DB9A41004B3C2E /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A259D9A27DB9A41004B3C2E /* References.swift */; };
 		9A49C0332800999A0075135D /* LogOutPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C0322800999A0075135D /* LogOutPop.swift */; };
 		9AC1239C2812F6050062D592 /* QRCodePop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1239B2812F6050062D592 /* QRCodePop.swift */; };
+		9E20440528130479005D9623 /* DashboardCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E20440428130479005D9623 /* DashboardCube.swift */; };
 		9E62CE2627DBAAAC002AA011 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2527DBAAAC002AA011 /* HomePage.swift */; };
 		9E62CE2827DBAD2F002AA011 /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62CE2727DBAD2F002AA011 /* TopHeader.swift */; };
 		9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */; };
@@ -30,6 +31,7 @@
 		9A259D9A27DB9A41004B3C2E /* References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		9A49C0322800999A0075135D /* LogOutPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutPop.swift; sourceTree = "<group>"; };
 		9AC1239B2812F6050062D592 /* QRCodePop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodePop.swift; sourceTree = "<group>"; };
+		9E20440428130479005D9623 /* DashboardCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCube.swift; sourceTree = "<group>"; };
 		9E62CE2527DBAAAC002AA011 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		9E62CE2727DBAD2F002AA011 /* TopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
 		9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakingCOVIDTest.swift; sourceTree = "<group>"; };
@@ -82,11 +84,11 @@
 				9A259D9627DB9A15004B3C2E /* Information.swift */,
 				9EBAA92727F6A18300D85A5E /* SuscipiousSymptoms.swift */,
 				9EBAA92527F6A0DC00D85A5E /* COVIDDashboard.swift */,
-				9E2044002812F8CC005D9623 /* DashboardCube.swift */,
 				9EBAA92327F69F8400D85A5E /* PositiveTestProcess.swift */,
 				9EBAA92127F69E7900D85A5E /* TakingCOVIDTest.swift */,
 				9A259D9827DB9A30004B3C2E /* PersonalInformation.swift */,
 				9A259D9A27DB9A41004B3C2E /* References.swift */,
+				9E20440428130479005D9623 /* DashboardCube.swift */,
 				9EE4C00D27D25D7E0089C372 /* Assets.xcassets */,
 				9EE4C00F27D25D7E0089C372 /* Preview Content */,
 			);
@@ -171,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E2044012812F8CC005D9623 /* DashboardCube.swift in Sources */,
 				9A259D9727DB9A15004B3C2E /* Information.swift in Sources */,
 				9E62CE2627DBAAAC002AA011 /* HomePage.swift in Sources */,
 				9EE4C00C27D25D7C0089C372 /* LoginPage.swift in Sources */,
@@ -181,6 +182,7 @@
 				9EBAA92227F69E7900D85A5E /* TakingCOVIDTest.swift in Sources */,
 				9AC1239C2812F6050062D592 /* QRCodePop.swift in Sources */,
 				9A49C0332800999A0075135D /* LogOutPop.swift in Sources */,
+				9E20440528130479005D9623 /* DashboardCube.swift in Sources */,
 				9A259D9927DB9A30004B3C2E /* PersonalInformation.swift in Sources */,
 				9A259D9B27DB9A41004B3C2E /* References.swift in Sources */,
 				9EE4C00A27D25D7C0089C372 /* qrbisonApp.swift in Sources */,

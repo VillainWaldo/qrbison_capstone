@@ -1,4 +1,3 @@
-//
 //  SwiftUIView.swift
 //  qrbison
 //
@@ -33,3 +32,4 @@ struct DashboardCube: View {
             DashboardCube()
         }
     }
+
